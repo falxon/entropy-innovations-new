@@ -1,0 +1,19 @@
+header.head {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/header.png") no-repeat center center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.h1-big h1 {
+  font-size: 3.5rem;
+  text-shadow: 3px 2px #343a40;
+}
+
+@media (min-width: 768px){
+  .lr-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
