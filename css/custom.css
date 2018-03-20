@@ -27,13 +27,18 @@ header.head {
 .logo-to-left {
   padding-left: 0rem;
 }
-
+/*
 @media (min-width: 768px){
   .lr-margin {
     margin-left: 10%;
     margin-right: 10%;
   }
-  .auto-width {
+  .audfdsfo-width {
     width: auto;
   }
+}
+*/
+body {
+  background-collor: #343a40;
+  background-color: #FFFFFF;
 }
