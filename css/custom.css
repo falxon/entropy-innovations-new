@@ -33,4 +33,7 @@ header.head {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .auto-width {
+    width: auto;
+  }
 }
