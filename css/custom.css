@@ -45,4 +45,21 @@ header.head {
 body {
   background-collor: #343a40;
   background-color: #FFFFFF;
+  color: #aaa;
+}
+
+.bg-primary {
+  background-color: #3A3F44 !important;
+}
+
+.bg-dark {
+  background-color: #272B30 !important;
+}
+
+
+@media (min-width: 992px){
+  .px-lg-6 {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
 }
