@@ -69,6 +69,13 @@
             {{#subtitle}}<h{{num}} class="{{class}} {{class2}}">{{subtext}}</h{{num}}>{{/subtitle}}
             {{#paragraph}}<p>{{{text}}}</p>{{/paragraph}}
             {{/section}}
+            {{#images}}
+            <div class="row">
+              <div class="text-center col-sm-{{cols}} {{class}}">
+                {{#image}}<img src="{{url}}" alt="{{alt}}">{{/image}}
+              </div>
+            </div>
+            {{/images}}
           </div>
         </div>
       </div>
