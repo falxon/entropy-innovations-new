@@ -35,6 +35,11 @@ if($currentpage=="/home" || $currentpage == "/"){
   $bodyModel = $home;
 	$template = "home";
 }
+elseif($currentpage=="/about"){
+  include "php-include/about.inc.php";
+  $bodyModel = $about;
+	$template = "home";
+}
 
 $page = $m->loadTemplate($template);
 echo $page->render($bodyModel);

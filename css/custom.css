@@ -67,6 +67,14 @@ body {
   text-decoration: underline;
 }
 
+.short-header {
+  position: relative;
+  background-color: #343a40;
+  background: url("../images/header.png") no-repeat center center;
+  height: 80px;
+}
+
+
 @media (min-width: 992px){
   .px-lg-6 {
     padding-left: 5rem !important;
