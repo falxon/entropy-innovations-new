@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+			"properties": {
+					"popupTemplate": "<div class='contianer edge-padding'> <div class='row'> <div class='col-xl-12'> <h3>New Cross</h3> <p>Lovely house in New Cross with a double room available.<a href='/sjd667'> See more here</a>.</p><img src='images/new-cross-thumbnail.png'> </div></div></div>"
+			},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0494,
+          51.4812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+			"properties": {
+					"popupTemplate": "<div class='contianer edge-padding'> <div class='row'> <div class='col-xl-12'> <h3>Peckham</h3> <p>A five-person house in Peckham with a double room available.<a href='/387gey4'> See more here</a>.</p><img class='thumb' src='images/387gey4.jpg'> </div></div></div>"
+			},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0728,
+          51.4763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+			"properties": {
+					"popupTemplate": "<div class='contianer edge-padding'> <div class='row'> <div class='col-xl-12'> <h3>Catford</h3> <p>A three bedroom house in Catford with a double room available.<a href='/vu98hb'> See more here</a>.</p><img class='thumb' src='images/vu98hb.jpg'> </div></div></div>"
+			},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0227,
+          51.4478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+			"properties": {
+					"popupTemplate": "<div class='contianer edge-padding'> <div class='row'> <div class='col-xl-12'> <h3>Greenwich</h3> <p>A three bedroom house in Greenwich with a single room available.<a href='/9fg37r'> See more here</a>.</p><img class='thumb' src='images/9fg37r.jpg'> </div></div></div>"
+			},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0106,
+          51.4749
+        ]
+      }
+    }
+
+  ]
+}

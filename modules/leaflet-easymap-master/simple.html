@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Leaflet Easymap</title>
+
+    <!-- include leaflet css and javascript -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" crossorigin="" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==">
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+
+    <!-- the leaflet easymap javascript -->
+    <!-- include this _after_ the leaflet javascript -->
+    <script src="js/leaflet-easymap.js"></script>
+        
+    <style type="text/css">
+      .leasymap {
+        /* Important: the element needs a height! */
+        height: 300px; /* adjust this as you need it */
+
+        /* the following css is optional */
+        border: 2px solid black;
+        margin:5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Leaflet Easymap – basic example</h1>
+    <p>
+      Have a nice OSM map on your HTML page.
+    </p>
+
+    <!-- This is the map element -->
+    <div class="leasymap"></div>
+
+    <ul>
+      <li>You need a block element with class <code>easymap</code></li>
+      <li>This div <strong>must</strong> have a height set (otherwise you'll see nothing).</li>
+      <li>For more advanced examples with parameters see <a href="index.html">index.html</a></li>
+      <li>Find <a href="https://github.com/Lapizistik/leaflet-easymap">the library and documentation on Github</a>.
+    </ul>
+  </body>
+</html>

@@ -8,7 +8,7 @@ $m = new Mustache_Engine(array(
 ));
 
 $sitename = "Entropy Innovations";
-$lipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+$phone = "07234 293824";
 
 $default["nav_item"][0]["url"] = "/home";
 $default["nav_item"][0]["nav"] = "Home";
@@ -25,7 +25,7 @@ $default["nav_drop"][0]["drop_item"][1]["url"] = "/current";
 $default["nav_drop"][0]["drop_item"][2]["item"] = "Other Inquiries";
 $default["nav_drop"][0]["drop_item"][2]["url"] = "/other";
 $default["site_name"] = $sitename;
-$default["phone"] = "07287 837928";
+$default["phone"] = $phone;
 
 
 $currentpage = $_SERVER['REQUEST_URI'];
@@ -46,7 +46,7 @@ elseif($currentpage=="/portfolio"){
 	$template = "home";
 }
 elseif($currentpage=="/contact" || $currentpage == "/new" || $currentpage == "/current" || $currentpage == "/other"){
-  include "php-include/portfolio.inc.php";
+  include "php-include/form.inc.php";
   $bodyModel = $form;
 	$template = "home";
 }
