@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--<link rel="stylesheet" href="/css/bootstrap.css">-->
-
+    <link href="modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/custom.css">
 
     <title>{{title}}</title>
@@ -66,8 +66,49 @@
           <div class="col-sm-12 px-lg-6 px-sm-5 px-4 links-normal">
             {{#title}}<h2 class="mt-4 mb-2 text-center">{{text}}</h2>{{/title}}
             {{#section}}
+            {{#icons}}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+
+            <div class="features-icons-item mx-auto mb-5 mb-lg-4 mt-4">
+              <div class="features-icons-icon d-flex">
+                {{#icon}}
+                <i class="{{icon_class}} m-auto text-white text-large"></i>
+                {{/icon}}
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            {{/icons}}
+            {{#divide}}
+          </div>
+        </div>
+      </div>
+      <div class="{{class}}">
+      </div>
+        <div class="container bg-primary">
+          <div class="row">
+            <div class="col-sm-12 px-lg-6 px-sm-5 px-4 links-normal">
+            {{/divide}}
             {{#subtitle}}<h{{num}} class="{{class}} {{class2}}">{{subtext}}</h{{num}}>{{/subtitle}}
             {{#paragraph}}<p>{{{text}}}</p>{{/paragraph}}
+            {{#buttons}}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            {{#button}}
+            <a class="btn btn-dark mx-2 mx-sm-3 mx-md-4 mx-lg-5 mb-4" href="/{{url}}">{{text}}</a>
+            {{/button}}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            {{/buttons}}
             {{/section}}
             {{#images}}
             <div class="row">
@@ -80,6 +121,41 @@
         </div>
       </div>
       {{/main}}
+
+      {{#portfolio}}
+      <div class="container bg-primary">
+        <div class="row">
+          <div class="col-sm-12 px-lg-6 px-sm-5 px-4 links-normal">
+            <h2 class="text-center mb-4 mt-4">{{title}}</h2>
+            <p>{{paragraph}}</p>
+            {{#site}}
+            {{#image}}
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <a href="{{url}}"><img class="img-fluid img-thumbnail mb-3" src="{{src}}" alt="{{alt}}"></a>
+              </div>
+            </div>
+            {{/image}}
+            {{#text}}
+            <div class="row">
+              <div class="col-sm-12">
+                <p>{{content}}</p>
+                <a href="{{url}}" class="btn btn-dark float-right mb-3">{{button}}</a>
+              </div>
+            {{/text}}
+            </div>
+            {{/site}}
+          </div>
+        </div>
+      </div>
+      {{/portfolio}}
+
+      <div class="container bottom-fractal">
+        <div class="row">
+          <div class="col-sm-12">
+          </div>
+        </div>
+      </div>
 
       <footer class="footer bg-dark">
         <div class="container text-white links-white">
