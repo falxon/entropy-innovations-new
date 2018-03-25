@@ -8,7 +8,7 @@ $m = new Mustache_Engine(array(
 ));
 
 $sitename = "Entropy Innovations";
-$phone = "07234 293824";
+$phone = "020 7946 0410";
 
 $default["nav_item"][0]["url"] = "/home";
 $default["nav_item"][0]["nav"] = "Home";
