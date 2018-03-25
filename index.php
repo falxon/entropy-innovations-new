@@ -40,6 +40,16 @@ elseif($currentpage=="/about"){
   $bodyModel = $about;
 	$template = "home";
 }
+elseif($currentpage=="/portfolio"){
+  include "php-include/portfolio.inc.php";
+  $bodyModel = $portfolio;
+	$template = "home";
+}
+elseif($currentpage=="/contact" || $currentpage == "/new" || $currentpage == "/current" || $currentpage == "/other"){
+  include "php-include/portfolio.inc.php";
+  $bodyModel = $form;
+	$template = "home";
+}
 
 $page = $m->loadTemplate($template);
 echo $page->render($bodyModel);
