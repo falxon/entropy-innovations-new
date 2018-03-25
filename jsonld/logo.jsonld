@@ -1,0 +1,7 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.entropyinnovations.com",
+  "logo": "http://www.entropyinnovations.com/logo-web.png",
+  "name": "Entropy Innovations"
+}

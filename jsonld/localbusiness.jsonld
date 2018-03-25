@@ -1,0 +1,40 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "image": [
+    "http://www.entropyinnovations.com/images/beautiful-code.png",
+    "http://www.entropyinnovations.com/images/building.png"
+   ],
+   "logo": "http://www.entropyinnovations.com/images/logo-web.png",
+  "@id": "http://www.entropyinnovations.com",
+  "name": "Entropy Innovations",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 Lombard Street",
+    "addressLocality": "City of London",
+    "addressRegion": "London",
+    "postalCode": "ECV 9LJ",
+    "addressCountry": "UK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.512829,
+    "longitude": -0.087231
+  },
+  "url": "https://www.google.com/maps/place/68+Lombard+St,+London+EC3V+9LJ/@51.5127989,-0.0894574,17z",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "12:30",
+      "closes": "17:30"
+    }
+  ],
+  "priceRange": "$$"
+}

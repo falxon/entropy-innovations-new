@@ -1,5 +1,5 @@
 <?php
-
+$about["metadescription"] = "Entropy Innovations provides full-stack web development using cutting edge and open-source technologies. We utilise Apache, Bootstrap 4.0, Atom, FreeBSD and PHP to build robust websites with low running costs.";
 $about["title"] = "$sitename - About Us";
 $about = array_merge($default, $about);
 $about["nav_item"][1]["active"] = "active";

@@ -1,8 +1,9 @@
 <?php
+$form["metadescription"] = "Entropy Innovations provides full-stack web development using cutting edge open-source technologies. Contact us about an existing project, a new project, or a general enquiry.";
 $form["title"] = "$sitename - Contact Us";
 $form = array_merge($default, $form);
-$form["nav_item"][3]["active"] = "active";
-$form["nav_item"][3]["sr_active"][0]["(current)"] = "(current)";
+$form["nav_drop"][0]["active"] = "active";
+$form["nav_drop"][0]["sr_active"][0]["(current)"] = "(current)";
 $form["header"][0]["class"] = "short-header";
 
 $form["form"][0]["title"] = "Contact Us";

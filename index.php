@@ -32,6 +32,32 @@ $currentpage = $_SERVER['REQUEST_URI'];
 
 if($currentpage=="/home" || $currentpage == "/"){
   include "php-include/home.inc.php";
+  if(isset($_POST["name"])&& isset($_POST["email"])&& isset($_POST["subject"])&& isset($_POST["topic"])&& isset($_POST["message"])){
+    $to = "contact@entropyinnovations.com";
+		$name = $_POST["name"];
+		$email = $_POST["email"];
+    $subject = $_POST["subject"];
+    $topic = $_POST["topic"];
+    if(isset($_POST["project"])){
+      $project = $name . "is a current or returning client from: " . $_POST["project"];
+    }
+    else{
+      $project = " ";
+    }
+
+		$headers = 'From: contact@entropyinnovations.com' . "\r\n" .
+    		"Reply-To:".$_POST["email"];
+        "\r\nContent-Type: text/html; charset=UTF-8\r\n";
+		$message = "Message from $email about $topic. $project\n" .$_POST["message"];
+    if(mail($to, $subject, $message, $headers)){
+      $home["alert"][0]["type"] = "light";
+      $home["alert"][0]["message"] = "Your message has been sent";
+
+    }else{
+      $home["alert"][0]["type"] = "warning";
+  		$home["alert"][0]["message"] = "Unfortunately, your message has not been sent due to an error. Apologies for any inconvenience caused - we are working on this issue and hope to resolve it shortly.";
+    }
+  }
   $bodyModel = $home;
 	$template = "home";
 }
@@ -48,6 +74,10 @@ elseif($currentpage=="/portfolio"){
 elseif($currentpage=="/contact" || $currentpage == "/new" || $currentpage == "/current" || $currentpage == "/other"){
   include "php-include/form.inc.php";
   $bodyModel = $form;
+	$template = "home";
+}else{
+  include "php-include/404.inc.php";
+  $bodyModel = $error;
 	$template = "home";
 }
 
