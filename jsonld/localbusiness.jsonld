@@ -7,7 +7,7 @@
    ],
    "logo": "https://www.entropyinnovations.com/images/logo-web.png",
   "@id": "https://www.entropyinnovations.com",
-  "name": "Entropy Innovations",
+  "name": "Entropy Innovations London",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "68 Lombard Street",
@@ -36,5 +36,6 @@
       "closes": "17:30"
     }
   ],
-  "priceRange": "$$"
+  "priceRange": "$$",
+  "telephone": "020 7946 0410"
 }
