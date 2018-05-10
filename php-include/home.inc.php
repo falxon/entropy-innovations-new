@@ -1,6 +1,6 @@
 <?php
 
-$home["metadescription"] = "Entropy Innovations provides full-stack web development using cutting edge open-source technologies. Talk to us to get the web presence you or your business deserves.";
+$home["metadescription"] = "Based in the heart of London, Entropy Innovations provides full-stack web development using cutting edge open-source technologies. Talk to us to get the web presence you or your business deserves.";
 $home["title"] = $sitename;
 $home = array_merge($default, $home);
 $home["nav_item"][0]["active"] = "active";
