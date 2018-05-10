@@ -14,7 +14,7 @@ $m = new Mustache_Engine(array(
 'loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__).'/templates')
 ));
 
-$sitename = "Entropy Innovations";
+$sitename = "Entropy Innovations London";
 $phone = "020 7946 0410";
 
 $default["nav_item"][0]["url"] = "/home";

@@ -1,5 +1,5 @@
 <?php
-$portfolio["metadescription"] = "Entropy Innovations provides full-stack web development using cutting edge open-source technologies. We make websites for a variety of clients: an independant physiotherapist, a nature and cities photographer...";
+$portfolio["metadescription"] = "$sitename provides full-stack web development using cutting edge open-source technologies. We make websites for a variety of clients: an independant physiotherapist, a nature and cities photographer...";
 $portfolio["title"] = "$sitename - Portfolio";
 $portfolio = array_merge($default, $portfolio);
 $portfolio["nav_item"][2]["active"] = "active";

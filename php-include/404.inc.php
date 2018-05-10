@@ -1,5 +1,5 @@
 <?php
-$error["metadescription"] = "Entropy Innovations provides full-stack web development using cutting edge open-source technologies. Talk to us to get the web presence you or your business deserves.";
+$error["metadescription"] = "$sitename provides full-stack web development using cutting edge open-source technologies. Talk to us to get the web presence you or your business deserves.";
 $error["title"] = $sitename;
 $error = array_merge($default, $error);
 $error["header"][0]["class"] = "head";

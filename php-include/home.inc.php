@@ -1,18 +1,18 @@
 <?php
 
-$home["metadescription"] = "Based in the heart of London, Entropy Innovations provides full-stack web development using cutting edge open-source technologies. Talk to us to get the web presence you or your business deserves.";
+$home["metadescription"] = "Based in the heart of London, $sitename provides full-stack web development using cutting edge open-source technologies. Talk to us to get the web presence you or your business deserves.";
 $home["title"] = $sitename;
 $home = array_merge($default, $home);
 $home["nav_item"][0]["active"] = "active";
 $home["nav_item"][0]["sr_active"][0]["(current)"] = "(current)";
 $home["header"][0]["class"] = "head";
 $home["header"][0]["text"] = $sitename;
-$home["main"][0]["title"][0]["text"] = "Welcome to Entropy Innovations";
+$home["main"][0]["title"][0]["text"] = "Welcome to ";
 $home["main"][0]["section"][0]["subtitle"][0]["subtext"] = "Full Stack Web Development";
 $home["main"][0]["section"][0]["subtitle"][0]["class"] = "text-center";
 $home["main"][0]["section"][0]["subtitle"][0]["class2"] = "mb-4";
 $home["main"][0]["section"][0]["subtitle"][0]["num"] = "4";
-$home["main"][0]["section"][0]["paragraph"][0]["text"] = "Make the most of your business or idea with a website. At Entropy Innovations, we take care of all your website needs, from the <strong>web design</strong> to handling your <strong>domain</strong>, <strong>email</strong>, and <strong>hosting</strong>. Developers use the <strong><a href='https://getbootstrap.com/'>Bootstrap 4.0</a></strong> framework for front-end services and <strong>PHP 7</strong> for server-side programming. We take pride in writing efficient and functional code, to keep your running costs low.";
+$home["main"][0]["section"][0]["paragraph"][0]["text"] = "Make the most of your business or idea with a website. At $sitename we take care of all your website needs, from the <strong>web design</strong> to handling your <strong>domain</strong>, <strong>email</strong>, and <strong>hosting</strong>. Developers use the <strong><a href='https://getbootstrap.com/'>Bootstrap 4.0</a></strong> framework for front-end services and <strong>PHP 7</strong> for server-side programming. We take pride in writing efficient and functional code, to keep your running costs low.";
 $home["main"][0]["section"][1]["icons"][0]["icon"][0]["icon_class"] = "icon-layers";
 $home["main"][0]["section"][1]["icons"][0]["icon"][1]["icon_class"] = "icon-screen-desktop";
 $home["main"][0]["section"][1]["icons"][0]["icon"][2]["icon_class"] = "icon-globe-alt";
