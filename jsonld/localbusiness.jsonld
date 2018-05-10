@@ -1,12 +1,12 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "image": [
-    "http://www.entropyinnovations.com/images/beautiful-code.png",
-    "http://www.entropyinnovations.com/images/building.png"
+    "https://www.entropyinnovations.com/images/beautiful-code.png",
+    "https://www.entropyinnovations.com/images/building.png"
    ],
-   "logo": "http://www.entropyinnovations.com/images/logo-web.png",
-  "@id": "http://www.entropyinnovations.com",
+   "logo": "https://www.entropyinnovations.com/images/logo-web.png",
+  "@id": "https://www.entropyinnovations.com",
   "name": "Entropy Innovations",
   "address": {
     "@type": "PostalAddress",
