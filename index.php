@@ -15,7 +15,7 @@ $m = new Mustache_Engine(array(
 ));
 
 $sitename = "Entropy Innovations London";
-$phone = "020 7946 0410";
+$phone = "020 8389 1460";
 
 $default["nav_item"][0]["url"] = "/home";
 $default["nav_item"][0]["nav"] = "Home";
