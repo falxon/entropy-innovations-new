@@ -241,19 +241,19 @@
         <div class="container text-white links-white">
           <div class="row">
             <div class="col-sm-4 my-auto py-lg-3 px-lg-1 my-auto">
-              <ul>
+              <div class="footer-nav">
                 {{#nav_item}}
-                <li><a href="{{url}}">{{nav}}</a></li>
+                <p class=""><a href="{{url}}">{{nav}}</a></p>
                 {{/nav_item}}
                 {{#nav_drop}}
-                <li><a href="{{url}}">{{nav}}</a></li>
+                <p class=""><a href="{{url}}">{{nav}}</a></p>
                 {{/nav_drop}}
-              </ul>
+              </div>
             </div>
-            <div class="col-sm-4 text-center my-auto">
+            <div class="footer-brand col-sm-4 text-center my-auto">
               <p class="mb-lg-0">&copy; {{site_name}}</p>
             </div>
-            <div class="col-sm-4 text-right my-auto py-lg-3 px-lg-3">
+            <div class="footer-contact col-sm-4 text-right my-auto py-lg-3 px-lg-3">
               <p>Call us on {{phone}}<br/>
               Or send a message<br/> using the <a href="/contact" class="underline">Contact Form</a></p>
             </div>
