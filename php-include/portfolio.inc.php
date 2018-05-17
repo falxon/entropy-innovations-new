@@ -15,7 +15,7 @@ $portfolio["portfolio"][0]["site"][0]["text"][0]["url"] = "https://dianabeavenph
 $portfolio["portfolio"][0]["site"][0]["text"][0]["button"] = "See More";
 
 $portfolio["portfolio"][0]["site"][1]["image"][0]["url"] = "https://human-in-nature.org.uk/";
-$portfolio["portfolio"][0]["site"][1]["image"][0]["src"] = "https://preview.ibb.co/ks0Ppn/nature.png";
+$portfolio["portfolio"][0]["site"][1]["image"][0]["src"] = "https://ibb.co/eKw2Jy";
 $portfolio["portfolio"][0]["site"][1]["image"][0]["alt"] = "Human-In-Nature";
 $portfolio["portfolio"][0]["site"][1]["text"][0]["content"] = "A website for a photographer and artist to sell work, and write blog posts. It features multiple galleries, a blog section, and the facility for the client to add, modify, and delete photos, drawings and blog posts. It also features a contact form.";
 $portfolio["portfolio"][0]["site"][1]["text"][0]["url"] = "https://human-in-nature.org.uk/";
